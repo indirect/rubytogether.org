@@ -54,6 +54,9 @@
 #   root POST /           stripe_event/webhook#event
 
 Rails.application.routes.draw do
+  comfy_route :cms_admin, path: "/admin"
+  # Ensure that this route is defined last
+  comfy_route :cms, path: "/"
   root "home#index"
 
   get "/csrf" => "application#csrf"

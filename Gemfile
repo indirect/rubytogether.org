@@ -4,7 +4,6 @@ ruby File.read(File.expand_path("../.ruby-version", __FILE__)).chomp
 gem "rails", "~> 5.2"
 
 gem "comfortable_mexican_sofa", "~> 2.0.0"
-gem "compass-rails", "~> 3.1"
 gem "devise", '~> 4.6.2'
 gem "fastly-rails", "~> 0.8"
 gem "http", "~> 4.1"
@@ -20,7 +19,7 @@ gem "puma", "~> 4.0"
 gem "rails-controller-testing", "~> 1.0.2"
 gem "rdiscount", "~> 2.2"
 gem "rollbar", "~> 2.20"
-gem "sass-rails", "~> 5.0"
+gem "sassc-rails", "~> 2.1"
 gem "slack-notifier", "~> 2.3"
 gem "stripe_event", "~> 2.2"
 gem "uglifier", "~> 4.1"
